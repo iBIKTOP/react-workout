@@ -1,0 +1,14 @@
+[
+    {
+        "id": "Barbell",
+        "name": "Barbell Bench Press",
+        "type": "weight",
+        "equipment": "Barbell"
+    },
+    {
+        "id": "Deadlift",
+        "name": "Deadlift",
+        "type": "weight",
+        "equipment": "Barbell"
+    }
+]
