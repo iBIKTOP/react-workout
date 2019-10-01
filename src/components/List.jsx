@@ -1,4 +1,5 @@
 import React from "react";
+import Exercise from "./Exercises";
 
 export default function List({ title, exercises }) {
     console.log(exercises);
@@ -6,14 +7,9 @@ export default function List({ title, exercises }) {
         <section>
             <h1>{title}</h1>
             {
-                exercises.map(todo => {
-                    return (<div>
-                        <p>{todo.equipment}</p>
-                        <p>{todo.id}</p>
-                        <p>{todo.name}</p>
-                        <p>{todo.type}</p>
-                    </div>)
-                })
+                exercises.map((exercise, index) => 
+                    <Exercise key={index} exercise={exercise} />
+                )
             }
         </section>
     )

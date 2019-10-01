@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import List from './components/List';
 import Form from './components/Form';
-import data from "./data/exercises.json";
+import data from "./data/workouts.json";
 
 export default function App() {
 
